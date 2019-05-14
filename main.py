@@ -12,7 +12,6 @@ if __name__ == "__main__":
     parser.add_argument("--path-csv", help = "Path to csv file for stock analytics", required = True)
     args = parser.parse_args()
     CSV_PATH = args.path_csv
-    print(CSV_PATH)
     if not os.path.isfile(CSV_PATH):
         print("File doesn't exists at the given path.")
         exit(1)
