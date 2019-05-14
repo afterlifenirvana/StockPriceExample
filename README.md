@@ -6,5 +6,6 @@ Setup:
   2. cd StockPriceExample
   3. pipenv install --python pointtopython3correctversion
   4. pipenv shell
+\n  
 Run: 
   python main.py --path-csv pathtofile
